@@ -1,79 +1,43 @@
 {
   "build": {
     "content": [{
-        "group": "all",
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      },
-      {
-        "group": "unity",
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
+      "files": [
+        "**/*.md",
+        "**/*.yml"
+      ],
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**",
+        "README.md",
+        "LICENSE",
+        "LICENSE-CODE",
+        "ThirdPartyNotices"
+      ]
+    }],
     "resource": [{
-        "group": "all",
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.svg",
-          "**/*.gif"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "group": "unity",
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.svg",
-          "**/*.gif"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
+      "files": [
+        "**/*.png",
+        "**/*.jpg",
+        "**/*.svg",
+        "**/*.gif"
+      ],
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**"
+      ]
+    }],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/sandbox/breadcrumb/toc.json"
     },
-    "fileMetaData": {},
-    "markdownEngineName": "markdig",
-    "versions": {},
-    "groups": {
-      "all": {
-        "moniker_range": "unity-2017.1"
-      },
-      "unity": {
-        "moniker_range": ">= unity-2017.1"
+    "fileMetaData": {
+      "monikerRange": {
+        "gamedev/unity/**/*.md": ">= unity-2017.1"
       }
     },
+    "markdownEngineName": "markdig",
+    "versions": {},
     "template": [],
     "dest": "sandbox"
   }
